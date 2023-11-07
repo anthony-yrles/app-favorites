@@ -6,11 +6,16 @@
 a {
   text-decoration: none;
 }
+
 body {
   background-color: black;
   margin: 10px;
   text-align: center;
   font-size: 20px;
+  font-family: "Lato" sans-serif;
+}
+h1, h2 {
+  font-family: "Montserrat" sans-serif;
 }
 
 body .page {
@@ -154,7 +159,8 @@ body .page main article img {
 
 .body-7minutes {
   background-color: rgb(17, 16, 16);
-  margin: 0px;
+  margin: 10px;  
+  font-family: 'Source Sans 3', sans-serif;
 }
 
 .body-7minutes .page-7minutes {
@@ -170,6 +176,7 @@ body .page main article img {
 .body-7minutes .page-7minutes h1 {
   margin: 20px 0px;
   font-size: 40px;
+  font-family: 'Playfair Display', serif;
 }
 
 .body-7minutes .page-7minutes header img {
@@ -194,10 +201,16 @@ body .page main article img {
   justify-content: space-around;
   padding-bottom: 10px;
 }
+.body-7minutes .page-7minutes main .reseaux {
+  background-image: url(/images/fondF7.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 .body-7minutes .page-7minutes main h2 {
   margin: 20px;
   font-size: 30px;
+  font-family: 'Playfair Display', serif;
 }
 
 .body-7minutes .page-7minutes main .description-7 {
@@ -206,7 +219,7 @@ body .page main article img {
   align-items: center;
 }
 
-.body-7minutes .page-7minutes main .description-7 img {
+.body-7minutes .page-7minutes main .cadre .description-7 img {
   padding: 20px 0px;
 }
 
@@ -248,6 +261,14 @@ body .page main article img {
     padding: 20px 0px;
     font-size: 40px;
   }
+  .body-7minutes .page-7minutes main .reseaux {
+    background-image: url(/images/fondF7bis.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .body-7minutes .page-7minutes footer {
+    margin: 5px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -274,17 +295,303 @@ body .page main article img {
     margin: 5px;
     border-radius: 20px;
   }
+
+  .body-7minutes .page-7minutes main .reseaux {
+    background-image: url(/images/fondF7ter.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
   .body-7minutes .page-7minutes main .cadre .description-7 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
   }
   .body-7minutes .page-7minutes main .cadre .description-7 img {
-    width: 237;
-    height: 477;
+    align-items: center;
+    width: 316px;
+    height: 636px;
   }
+
   .body-7minutes .page-7minutes main .cadre h2 {
     padding: 20px 0px;
     font-size: 50px;
   }
+  .body-7minutes .page-7minutes main .cadre .reseau img {
+    width: 100px;
+    height: 100px;
+  }
+  .body-7minutes .page-7minutes footer {
+    margin: 5px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .body-7minutes {
+    font-size: 50px;
+  }
+  .body-7minutes .page-7minutes {
+    padding: 10px;
+  }
+  .body-7minutes .page-7minutes header {
+    border-radius: 15px 15px 0px 0px;
+  }
+
+  .body-7minutes .page-7minutes header h1 {
+    font-size: 65px;
+    padding: 10px 0px;
+  }
+  .body-7minutes .page-7minutes header nav {
+    font-size: 45px;
+  }
+
+  .body-7minutes .page-7minutes main .cadre {
+    padding: 15px;
+    margin: 5px;
+    border-radius: 15px;
+  }
+  .body-7minutes .page-7minutes main .reseaux {
+    background-image: url(/images/fondF7quatre.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .body-7minutes .page-7minutes main .cadre .description-7 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+  }
+  .body-7minutes .page-7minutes main .cadre .description-7 img {
+    align-items: center;
+    width: 316px;
+    height: 636px;
+  }
+
+  .body-7minutes .page-7minutes main .cadre h2 {
+    padding: 15px 0px;
+    font-size: 50px;
+  }
+  .body-7minutes .page-7minutes main .cadre .reseau img {
+    width: 100px;
+    height: 100px;
+  }
+  .body-7minutes .page-7minutes footer {
+    margin: 5px;
+  }
+}
+
+/* Mise en page CSS de la page fitnessPal.html */
+
+.fitnessPal {
+  background-color: white;
+  margin: 0px;
+  border: solid rgb(156, 148, 202);
+  font-family: 'Raleway', sans-serif;
+}
+.fitnessPal .page-fitness {
+  color: rgb(99, 107, 53);
+}
+
+.fitnessPal .page-fitness header {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 15px 15px 0px 0px;
+  background-color: rgb(156, 148, 202);
+}
+.fitnessPal .page-fitness h1 {
+  margin: 20px 0px;
+  font-size: 40px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.fitnessPal .page-fitness header img {
+  border-radius: 30px;
+}
+
+.fitnessPal .page-fitness header nav {
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+}
+
+.fitnessPal .page-fitness main .cadre {
+  margin: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(86, 64, 213);
+  color: rgb(169, 191, 42);
+}
+.fitnessPal .page-fitness main .cadre .reseau {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 10px;
+}
+
+.fitnessPal .page-fitness main h2 {
+  margin: 20px;
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.fitnessPal .page-fitness main .description-7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fitnessPal .page-fitness main .cadre .description-7 img {
+  padding: 20px 0px;
+}
+
+.fitnessPal .page-fitness main .cadre .description-7 ul {
+  list-style: none;
+}
+
+.fitnessPal .page-fitness footer {
+  margin: 10px;
+  background-color: rgb(156, 148, 202);
+  border-radius: 0px 0px 10px 10px;
+}
+
+@media screen and (min-width: 450px) and (max-width: 768px) {
+  .fitnessPal {
+    font-size: 30px;
+  }
+  .fitnessPal .page-fitness {
+    padding: 10px;
+  }
+  .fitnessPal .page-fitness header {
+    border-radius: 25px 25px 0px 0px;
+  }
+  
+  .fitnessPal .page-fitness header h1 {
+    font-size: 45px;
+    padding: 10px 0px;
+  }
+  .fitnessPal .page-fitness header nav {
+    font-size: 25px;
+  }
+  
+  .fitnessPal .page-fitness main .cadre {
+    padding: 15px;
+    margin: 5px;
+    border-radius: 25px;
+  }
+  .fitnessPal .page-fitness main .cadre h2 {
+    padding: 20px 0px;
+    font-size: 40px;
+  }
+  .fitnessPal .page-fitness footer {
+    margin: 5px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .fitnessPal {
+    font-size: 40px;
+  }
+  .fitnessPal .page-fitness {
+    padding: 15px;
+  }
+  .fitnessPal .page-fitness header {
+    border-radius: 20px 20px 0px 0px;
+  }
+  
+  .fitnessPal .page-fitness header h1 {
+    font-size: 55px;
+    padding: 10px 0px;
+  }
+  .fitnessPal .page-fitness header nav {
+    font-size: 35px;
+  }
+  
+  .fitnessPal .page-fitness main .cadre {
+    padding: 15px;
+    margin: 5px;
+    border-radius: 20px;
+  }
+  .fitnessPal .page-fitness main .cadre .description-7 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+  }
+  .fitnessPal .page-fitness main .cadre .description-7 img {
+    align-items: center;
+    width: 316px;
+    height: 636px;
+  }
+  
+  .fitnessPal .page-fitness main .cadre h2 {
+    padding: 20px 0px;
+    font-size: 50px;
+  }
+  .fitnessPal .page-fitness main .cadre .reseau img {
+    width: 100px;
+    height: 100px;
+  }
+  .fitnessPal .page-fitness footer {
+    margin: 5px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .fitnessPal {
+    font-size: 50px;
+  }
+  .fitnessPal .page-fitness {
+    padding: 10px;
+  }
+  .fitnessPal .page-fitness header {
+    border-radius: 15px 15px 0px 0px;
+  }
+  
+  .fitnessPal .page-fitness header h1 {
+    font-size: 65px;
+    padding: 10px 0px;
+  }
+  .fitnessPal .page-fitness header nav {
+    font-size: 45px;
+  }
+  
+  .fitnessPal .page-fitness main .cadre {
+    padding: 15px;
+    margin: 5px;
+    border-radius: 15px;
+  }
+  .fitnessPal .page-fitness main .cadre .description-7 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+  }
+  .fitnessPal .page-fitness main .cadre .description-7 img {
+    align-items: center;
+    width: 316px;
+    height: 636px;
+  }
+  
+  .fitnessPal .page-fitness main .cadre h2 {
+    padding: 15px 0px;
+    font-size: 50px;
+  }
+  .fitnessPal .page-fitness main .cadre .reseau img {
+    width: 100px;
+    height: 100px;
+  }
+  .fitnessPal .page-fitness footer {
+    margin: 5px;
+  }
+}
+.uberEats {
+  font-family: 'Roboto', sans-serif;
+}
+.uberEats h1
+.uberEats h2 {
+  font-family: 'Fredoka', sans-serif;
 }
