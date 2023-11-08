@@ -424,6 +424,15 @@ body .page main article img {
   background-color: rgb(86, 64, 213);
   color: rgb(169, 191, 42);
 }
+
+.fitnessPal .page-fitness main .cadre-background {
+  background-image: url(/images/fitnessfond.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  font-weight: bolder;
+}
 .fitnessPal .page-fitness main .cadre .reseau {
   display: flex;
   justify-content: space-around;
@@ -594,4 +603,13 @@ body .page main article img {
 .uberEats h1
 .uberEats h2 {
   font-family: 'Fredoka', sans-serif;
+}
+
+.uberEats .page-uberEats main .cadre-background {
+  background-image: url(/images/fondUber.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  font-weight: bolder;
 }
