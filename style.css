@@ -202,7 +202,7 @@ body .page main article img {
   padding-bottom: 10px;
 }
 .body-7minutes .page-7minutes main .reseaux {
-  background-image: url(/images/fondF7.jpg);
+  background-image: url(./images/fondF7.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -262,7 +262,7 @@ body .page main article img {
     font-size: 40px;
   }
   .body-7minutes .page-7minutes main .reseaux {
-    background-image: url(/images/fondF7bis.jpg);
+    background-image: url(./images/fondF7bis.jpg);
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -297,7 +297,7 @@ body .page main article img {
   }
 
   .body-7minutes .page-7minutes main .reseaux {
-    background-image: url(/images/fondF7ter.jpg);
+    background-image: url(./images/fondF7ter.jpg);
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -352,7 +352,7 @@ body .page main article img {
     border-radius: 15px;
   }
   .body-7minutes .page-7minutes main .reseaux {
-    background-image: url(/images/fondF7quatre.jpg);
+    background-image: url(./images/fondF7quatre.jpg);
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -426,7 +426,7 @@ body .page main article img {
 }
 
 .fitnessPal .page-fitness main .cadre-background {
-  background-image: url(/images/fitnessfond.jpg);
+  background-image: url(./images/fitnessfond.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -606,7 +606,7 @@ body .page main article img {
 }
 
 .uberEats .page-uberEats main .cadre-background {
-  background-image: url(/images/fondUber.jpg);
+  background-image: url(./images/fondUber.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
