@@ -14,7 +14,9 @@ body {
   font-size: 20px;
   font-family: "Lato" sans-serif;
 }
-h1, h2 {
+
+h1,
+h2 {
   font-family: "Montserrat" sans-serif;
 }
 
@@ -22,6 +24,7 @@ body .page {
   background-color: #03045e;
   color: #013958;
 }
+
 body .page header {
   margin: 5px;
   padding: 5px;
@@ -40,15 +43,18 @@ body .page main .presentation {
   background: #e0e0e0;
   box-shadow: inset -16px -16px 32px #afafaf, inset 16px 16px 32px #ffffff;
 }
+
 .barre {
   height: 40px;
 }
+
 body .page main .hidden-presentation {
   display: none;
   border-radius: 50px;
   background: #e0e0e0;
   box-shadow: inset -16px -16px 32px #afafaf, inset 16px 16px 32px #ffffff;
 }
+
 body .page main article {
   margin: 5px;
   padding: 10px 0px;
@@ -56,20 +62,24 @@ body .page main article {
   background: #e0e0e0;
   box-shadow: inset -16px -16px 32px #afafaf, inset 16px 16px 32px #ffffff;
 }
+
 body .page main article img {
   padding: 2px;
   border-radius: 30px;
 }
+
 @media screen and (min-width: 280px) and (max-width: 450px) {
   body .page header h1 {
     font-size: 50px;
     padding: 5px;
   }
+
   body .page main .presentation {
     padding: 15px;
     margin: 5px;
     border-radius: 50px;
   }
+
   body .page main article h2 {
     padding: 10px 0px;
     font-size: 40px;
@@ -80,9 +90,11 @@ body .page main article img {
   body {
     font-size: 30px;
   }
+
   body .page {
     padding: 10px;
   }
+
   body .page header {
     border-radius: 25px;
   }
@@ -91,11 +103,13 @@ body .page main article img {
     font-size: 65px;
     padding: 10px 0px;
   }
+
   body .page main .presentation {
     padding: 15px;
     margin: 5px;
     border-radius: 25px;
   }
+
   body .page main article h2 {
     padding: 20px 0px;
     font-size: 50px;
@@ -106,9 +120,11 @@ body .page main article img {
   body {
     font-size: 40px;
   }
+
   body .page {
     padding: 15px;
   }
+
   body .page header {
     border-radius: 20px;
   }
@@ -123,18 +139,22 @@ body .page main article img {
     margin: 5px;
     border-radius: 20px;
   }
+
   body .page main article h2 {
     padding: 30px 0px;
     font-size: 60px;
   }
 }
+
 @media screen and (min-width: 1024px) {
   body {
     font-size: 50px;
   }
+
   body .page {
     padding: 20px;
   }
+
   body .page header {
     border-radius: 15px;
   }
@@ -149,6 +169,7 @@ body .page main article img {
     margin: 5px;
     border-radius: 15px;
   }
+
   body .page main article h2 {
     padding: 40px 0px;
     font-size: 70px;
@@ -159,7 +180,7 @@ body .page main article img {
 
 .body-7minutes {
   background-color: rgb(17, 16, 16);
-  margin: 10px;  
+  margin: 10px;
   font-family: 'Source Sans 3', sans-serif;
 }
 
@@ -173,6 +194,7 @@ body .page main article img {
   border-radius: 15px 15px 0px 0px;
   background: #3ae032;
 }
+
 .body-7minutes .page-7minutes h1 {
   margin: 20px 0px;
   font-size: 40px;
@@ -191,16 +213,17 @@ body .page main article img {
 }
 
 .body-7minutes .page-7minutes main .cadre {
-  margin: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  width: 100%;
+  padding: 10% 5%;
   background: white;
 }
+
 .body-7minutes .page-7minutes main .cadre .reseau {
   display: flex;
   justify-content: space-around;
   padding-bottom: 10px;
 }
+
 .body-7minutes .page-7minutes main .reseaux {
   background-image: url(./images/fondF7.jpg);
   background-size: cover;
@@ -213,10 +236,16 @@ body .page main article img {
   font-family: 'Playfair Display', serif;
 }
 
-.body-7minutes .page-7minutes main .description-7 {
+.body-7minutes .page-7minutes main .cadre .description-7 {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.body-7minutes .page-7minutes main .fond {
+  background-image: url(./images/7fond.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .body-7minutes .page-7minutes main .cadre .description-7 img {
@@ -237,9 +266,11 @@ body .page main article img {
   .body-7minutes {
     font-size: 30px;
   }
+
   .body-7minutes .page-7minutes {
     padding: 10px;
   }
+
   .body-7minutes .page-7minutes header {
     border-radius: 25px 25px 0px 0px;
   }
@@ -248,6 +279,7 @@ body .page main article img {
     font-size: 45px;
     padding: 10px 0px;
   }
+
   .body-7minutes .page-7minutes header nav {
     font-size: 25px;
   }
@@ -257,15 +289,24 @@ body .page main article img {
     margin: 5px;
     border-radius: 25px;
   }
+
+  .body-7minutes .page-7minutes main .fond {
+    background-image: url(./images/sport.avif);
+    background-repeat: repeat;
+    background-size: contain;
+  }
+
   .body-7minutes .page-7minutes main .cadre h2 {
     padding: 20px 0px;
     font-size: 40px;
   }
+
   .body-7minutes .page-7minutes main .reseaux {
     background-image: url(./images/fondF7bis.jpg);
     background-size: cover;
     background-repeat: no-repeat;
   }
+
   .body-7minutes .page-7minutes footer {
     margin: 5px;
   }
@@ -275,9 +316,11 @@ body .page main article img {
   .body-7minutes {
     font-size: 40px;
   }
+
   .body-7minutes .page-7minutes {
     padding: 15px;
   }
+
   .body-7minutes .page-7minutes header {
     border-radius: 20px 20px 0px 0px;
   }
@@ -286,6 +329,7 @@ body .page main article img {
     font-size: 55px;
     padding: 10px 0px;
   }
+
   .body-7minutes .page-7minutes header nav {
     font-size: 35px;
   }
@@ -301,6 +345,7 @@ body .page main article img {
     background-size: cover;
     background-repeat: no-repeat;
   }
+
   .body-7minutes .page-7minutes main .cadre .description-7 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -308,6 +353,7 @@ body .page main article img {
     justify-items: center;
     align-items: center;
   }
+
   .body-7minutes .page-7minutes main .cadre .description-7 img {
     align-items: center;
     width: 316px;
@@ -318,10 +364,12 @@ body .page main article img {
     padding: 20px 0px;
     font-size: 50px;
   }
+
   .body-7minutes .page-7minutes main .cadre .reseau img {
     width: 100px;
     height: 100px;
   }
+
   .body-7minutes .page-7minutes footer {
     margin: 5px;
   }
@@ -331,9 +379,11 @@ body .page main article img {
   .body-7minutes {
     font-size: 50px;
   }
+
   .body-7minutes .page-7minutes {
     padding: 10px;
   }
+
   .body-7minutes .page-7minutes header {
     border-radius: 15px 15px 0px 0px;
   }
@@ -342,6 +392,7 @@ body .page main article img {
     font-size: 65px;
     padding: 10px 0px;
   }
+
   .body-7minutes .page-7minutes header nav {
     font-size: 45px;
   }
@@ -351,11 +402,13 @@ body .page main article img {
     margin: 5px;
     border-radius: 15px;
   }
+
   .body-7minutes .page-7minutes main .reseaux {
     background-image: url(./images/fondF7quatre.jpg);
     background-size: cover;
     background-repeat: no-repeat;
   }
+
   .body-7minutes .page-7minutes main .cadre .description-7 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -363,6 +416,7 @@ body .page main article img {
     justify-items: center;
     align-items: center;
   }
+
   .body-7minutes .page-7minutes main .cadre .description-7 img {
     align-items: center;
     width: 316px;
@@ -373,10 +427,12 @@ body .page main article img {
     padding: 15px 0px;
     font-size: 50px;
   }
+
   .body-7minutes .page-7minutes main .cadre .reseau img {
     width: 100px;
     height: 100px;
   }
+
   .body-7minutes .page-7minutes footer {
     margin: 5px;
   }
@@ -390,6 +446,7 @@ body .page main article img {
   border: solid rgb(156, 148, 202);
   font-family: 'Raleway', sans-serif;
 }
+
 .fitnessPal .page-fitness {
   color: rgb(99, 107, 53);
 }
@@ -400,6 +457,7 @@ body .page main article img {
   border-radius: 15px 15px 0px 0px;
   background-color: rgb(156, 148, 202);
 }
+
 .fitnessPal .page-fitness h1 {
   margin: 20px 0px;
   font-size: 40px;
@@ -423,16 +481,26 @@ body .page main article img {
   padding-bottom: 10px;
   background-color: rgb(86, 64, 213);
   color: rgb(169, 191, 42);
+  background: rgba(35, 35, 35, 1);
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 1),
+      0px 0px 10px rgba(255, 255, 255, 1),
+      0px 0px 15px rgba(255, 255, 255, 1),
+      0px 0px 20px rgba(73, 255, 24, 1),
+      0px 0px 30px rgba(73, 255, 24, 1),
+      0px 0px 40px rgba(73, 255, 24, 1),
+      0px 0px 55px rgba(73, 255, 24, 1),
+      0px 0px 75px rgba(73, 255, 24, 1);
 }
 
 .fitnessPal .page-fitness main .cadre-background {
-  background-image: url(./images/fitnessfond.jpg);
+  background-image: url(./images/saine.avif);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   color: white;
   font-weight: bolder;
 }
+
 .fitnessPal .page-fitness main .cadre .reseau {
   display: flex;
   justify-content: space-around;
@@ -443,6 +511,7 @@ body .page main article img {
   margin: 20px;
   font-size: 30px;
   font-family: 'Open Sans', sans-serif;
+  background: rgba(35, 35, 35, 1);
 }
 
 .fitnessPal .page-fitness main .description-7 {
@@ -457,6 +526,7 @@ body .page main article img {
 
 .fitnessPal .page-fitness main .cadre .description-7 ul {
   list-style: none;
+  background: rgba(35, 35, 35, 1);
 }
 
 .fitnessPal .page-fitness footer {
@@ -469,30 +539,35 @@ body .page main article img {
   .fitnessPal {
     font-size: 30px;
   }
+
   .fitnessPal .page-fitness {
     padding: 10px;
   }
+
   .fitnessPal .page-fitness header {
     border-radius: 25px 25px 0px 0px;
   }
-  
+
   .fitnessPal .page-fitness header h1 {
     font-size: 45px;
     padding: 10px 0px;
   }
+
   .fitnessPal .page-fitness header nav {
     font-size: 25px;
   }
-  
+
   .fitnessPal .page-fitness main .cadre {
     padding: 15px;
     margin: 5px;
     border-radius: 25px;
   }
+
   .fitnessPal .page-fitness main .cadre h2 {
     padding: 20px 0px;
     font-size: 40px;
   }
+
   .fitnessPal .page-fitness footer {
     margin: 5px;
   }
@@ -502,26 +577,30 @@ body .page main article img {
   .fitnessPal {
     font-size: 40px;
   }
+
   .fitnessPal .page-fitness {
     padding: 15px;
   }
+
   .fitnessPal .page-fitness header {
     border-radius: 20px 20px 0px 0px;
   }
-  
+
   .fitnessPal .page-fitness header h1 {
     font-size: 55px;
     padding: 10px 0px;
   }
+
   .fitnessPal .page-fitness header nav {
     font-size: 35px;
   }
-  
+
   .fitnessPal .page-fitness main .cadre {
     padding: 15px;
     margin: 5px;
     border-radius: 20px;
   }
+
   .fitnessPal .page-fitness main .cadre .description-7 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -529,20 +608,23 @@ body .page main article img {
     justify-items: center;
     align-items: center;
   }
+
   .fitnessPal .page-fitness main .cadre .description-7 img {
     align-items: center;
     width: 316px;
     height: 636px;
   }
-  
+
   .fitnessPal .page-fitness main .cadre h2 {
     padding: 20px 0px;
     font-size: 50px;
   }
+
   .fitnessPal .page-fitness main .cadre .reseau img {
     width: 100px;
     height: 100px;
   }
+
   .fitnessPal .page-fitness footer {
     margin: 5px;
   }
@@ -552,26 +634,30 @@ body .page main article img {
   .fitnessPal {
     font-size: 50px;
   }
+
   .fitnessPal .page-fitness {
     padding: 10px;
   }
+
   .fitnessPal .page-fitness header {
     border-radius: 15px 15px 0px 0px;
   }
-  
+
   .fitnessPal .page-fitness header h1 {
     font-size: 65px;
     padding: 10px 0px;
   }
+
   .fitnessPal .page-fitness header nav {
     font-size: 45px;
   }
-  
+
   .fitnessPal .page-fitness main .cadre {
     padding: 15px;
     margin: 5px;
     border-radius: 15px;
   }
+
   .fitnessPal .page-fitness main .cadre .description-7 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -579,34 +665,38 @@ body .page main article img {
     justify-items: center;
     align-items: center;
   }
+
   .fitnessPal .page-fitness main .cadre .description-7 img {
     align-items: center;
     width: 316px;
     height: 636px;
   }
-  
+
   .fitnessPal .page-fitness main .cadre h2 {
     padding: 15px 0px;
     font-size: 50px;
   }
+
   .fitnessPal .page-fitness main .cadre .reseau img {
     width: 100px;
     height: 100px;
   }
+
   .fitnessPal .page-fitness footer {
     margin: 5px;
   }
 }
+
 .uberEats {
   font-family: 'Roboto', sans-serif;
 }
-.uberEats h1
-.uberEats h2 {
+
+.uberEats h1 .uberEats h2 {
   font-family: 'Fredoka', sans-serif;
 }
 
 .uberEats .page-uberEats main .cadre-background {
-  background-image: url(./images/fondUber.jpg);
+  background-image: url(./images/burger.avif);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
